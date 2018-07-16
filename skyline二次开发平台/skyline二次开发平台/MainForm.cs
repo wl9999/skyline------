@@ -179,6 +179,12 @@ namespace skyline二次开发平台
             //sgworld.Command.Execute(1004, 0);
         }
 
+        private void 天地图ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            sgworld.Command.Execute(1014, 21);
+       
+        }
+
         private void 加载shp数据ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string path = Application.StartupPath + "\\data\\国界\\bou1_4l.shp";
