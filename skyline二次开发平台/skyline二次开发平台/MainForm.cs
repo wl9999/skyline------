@@ -169,7 +169,15 @@ namespace skyline二次开发平台
             addbuildingForm.Show();
         }
 
+        private void 地下场景显示ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            sgworld.Command.Execute(1027, 0);
+        }
 
+        private void 另存为ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //sgworld.Command.Execute(1004, 0);
+        }
 
         private void 加载shp数据ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -213,7 +221,7 @@ namespace skyline二次开发平台
 
         private void 百度地图ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            sgworld.Command.Execute(1014, 21);
         }
 
     }
