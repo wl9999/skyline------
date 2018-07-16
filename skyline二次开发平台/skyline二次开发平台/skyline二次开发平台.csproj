@@ -51,6 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddbuildingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddbuildingForm.Designer.cs">
+      <DependentUpon>AddbuildingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdddrillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdddrillForm.Designer.cs">
+      <DependentUpon>AdddrillForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AutoSizeFormClass.cs" />
     <Compile Include="Log4NetHelper.cs" />
     <Compile Include="MainForm.cs">
@@ -73,6 +85,12 @@
     <Compile Include="SurfaceimageForm.Designer.cs">
       <DependentUpon>SurfaceimageForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddbuildingForm.resx">
+      <DependentUpon>AddbuildingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdddrillForm.resx">
+      <DependentUpon>AdddrillForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LabelForm.resx">
       <DependentUpon>LabelForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +150,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Baidumap.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

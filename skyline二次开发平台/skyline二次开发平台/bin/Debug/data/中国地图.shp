@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7,9,10,11" />
+<meta name="renderer" content="webkit">
+<title>百度网盘-链接不存在</title>
+<link rel="shortcut icon" href="/res/static/images/favicon.ico"/>
+<script src="/sns/box-static/disk-share/js/mod.js?t=1527757673590"></script>
+<link rel="stylesheet" type="text/css" href="/box-static/consult/base.css"/>
+<link rel="stylesheet" type="text/css" href="/box-static/consult/system-core.css"/>
+<script src="/box-static/consult/base.js"></script>
+<script src="/box-static/consult/system-core.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/box-static/consult/function.css"/>
+
+
+<meta content="b31ebb7c3759312418b3645de4991aef" name="baidu-tc-verification"/>
+<meta content="max-age=30" http-equiv="Cache-Control"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<meta content="网盘,百度网盘,百度云,网络U盘,网络硬盘,免费网盘,网盘下载,网盘资源,同步,云存储,外链分享,离线下载" name="keywords">
+<meta content="百度网盘为您提供文件的网络备份、同步和分享服务。空间大、速度快、安全稳固，支持教育网加速，支持手机端。现在注册即有机会享受2T的免费存储空间" name="description">
+<style type="text/css">
+    html {
+        *overflow-y: hidden !important;
+    }
+
+    /* layout begin */
+    html, body {
+        background: #ededf0;
+    }
+
+    #content {
+        position: relative;
+        top: 66px;
+    }
+
+    #doc {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        min-width: 1186px;
+        _width: 100%;
+        _height: 630px;
+        background: #ededf0;
+        font: 14px 'Microsoft YaHei', 'SimSun';
+    }
+
+    #layoutHeader {
+        position: absolute;
+        width: 100%;
+        height: 65px;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 41;
+    }
+
+    #layoutAside {
+        position: absolute;
+        width: 190px;
+        min-height: 350px;
+        top: 65px;
+        left: 0;
+        bottom: 0;
+        border-right: 1px solid #e2e5e6;
+        background: #f2f2f2;
+        z-index: 9;
+    }
+
+    #layoutMain {
+        position: absolute;
+        top: 65px;
+        left: 191px;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    /* layout end */
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="/box-static/consult/default.css"/>
+
+
+<style type="text/css">.icon-shareSave-gray{background-repeat: no-repeat;}.g-button:hover .icon-shareSave-gray{background-repeat: no-repeat;}.icon-shareSave-white{background-repeat: no-repeat;}.g-button:hover .icon-shareSave-white{background-repeat: no-repeat;}.icon-shareSave-blue{background-repeat: no-repeat;}.g-button:hover .icon-shareSave-blue{background-repeat: no-repeat;}.icon-unlinkShare-gray{background-repeat: no-repeat;}.g-button:hover .icon-unlinkShare-gray{background-repeat: no-repeat;}.icon-shareSave-gray{background-position:0px 0px}.g-button:hover .icon-shareSave-gray{background-position:0px -34px}.icon-shareSave-white{background-position:0px -68px}.g-button:hover .icon-shareSave-white{background-position:0px -102px}.icon-shareSave-blue{background-position:0px -136px}.g-button:hover .icon-shareSave-blue{background-position:0px -170px}.icon-unlinkShare-gray{background-position:0px -204px}.g-button:hover .icon-unlinkShare-gray{background-position:0px -238px}.icon-shareSave-gray,.g-button:hover .icon-shareSave-gray,.icon-shareSave-white,.g-button:hover .icon-shareSave-white,.icon-shareSave-blue,.g-button:hover .icon-shareSave-blue,.icon-unlinkShare-gray,.g-button:hover .icon-unlinkShare-gray{background-image: url(/sns/box-static/disk-share/icons_z_85b2ffc.png?t=1527757673590)}</style><script type="text/javascript">[].push.apply(window.manifest||(window.manifest=[]),[{"name":"\u7f51\u76d8\u94fe\u63a5\u7ba1\u7406-\u8bc4\u8bba","group":"com.baidu.pan","description":"The comment plugin.","entranceFile":"disk-share:widget\/plugin\/comment\/start.js"},{"name":"\u7f51\u76d8\u94fe\u63a5\u7ba1\u7406-\u70b9\u8d5e","group":"com.baidu.pan","description":"The likes plugin.","entranceFile":"disk-share:widget\/plugin\/likes\/start.js"},{"name":"\u7f51\u76d8\u94fe\u63a5\u7ba1\u7406-\u4e3e\u62a5","group":"com.baidu.pan","description":"The qrCode plugin.","buttons":[{"position":"shareTools","index":4,"title":"\u4e3e\u62a5","buttonStyle":"normal","name":"reportBad","yunData":"yunData.MYUK !== yunData.SHARE_UK","conditions":{"pageModule":"link"}}],"entranceFile":"disk-share:widget\/plugin\/reportBad\/start.js"},{"name":"\u4fdd\u5b58\u5230\u7f51\u76d8","group":"com.baidu.pan","description":"The tools of transferFiles plugin.","buttons":[{"position":"shareTools","index":1,"title":"\u4fdd\u5b58\u5230\u7f51\u76d8","buttonStyle":"normal","icon":"icon-save-disk","name":"shareSave","color":"blue","conditions":{"pageModule":"link"},"yunData":"yunData.MYUK !== yunData.SHARE_UK"},{"position":"shareListTools","index":1,"title":"\u4fdd\u5b58\u5230\u6211\u7684\u767e\u5ea6\u7f51\u76d8","buttonStyle":"normal","icon":"icon-save-disk","name":"shareSave","conditions":{"pageModule":"link"},"yunData":"yunData.MYUK !== yunData.SHARE_UK"},{"position":"shareList","index":1,"title":"\u4fdd\u5b58\u5230\u6211\u7684\u767e\u5ea6\u7f51\u76d8","buttonStyle":"normal","icon":"icon-save-disk","name":"shareSave","conditions":{"pageModule":"link"},"yunData":"yunData.MYUK !== yunData.SHARE_UK"}],"entranceFile":"disk-share:widget\/plugin\/shareFileSave\/start.js"},{"name":"\u7f51\u76d8\u94fe\u63a5\u7ba1\u7406-\u53d6\u6d88\u5206\u4eab\u94fe\u63a5","group":"com.baidu.pan","description":"The unlinkShare plugin.","buttons":[{"position":"shareTools","index":1,"title":"\u53d6\u6d88\u5206\u4eab","buttonStyle":"normal","icon":"icon-share-cancel","name":"unLinkShare","conditions":{"pageModule":"link"},"yunData":"yunData.MYUK === yunData.SHARE_UK"}],"entranceFile":"disk-share:widget\/plugin\/unLinkShare\/start.js"}]);</script>
+<link rel="stylesheet" type="text/css" href="/sns/box-static/disk-share/pkg/system_95f8a99.css?t=1527757673590"/><link rel="stylesheet" type="text/css" href="/sns/box-static/disk-share/pkg/page-ui_84ef26f.css?t=1527757673590"/></head>
+<body>
+
+
+
+<link rel="stylesheet" type="text/css" href="/sns/box-static/disk-share/css/cover.css?t=1527757673590"/>
+<link rel="stylesheet" node-type="theme-link" type="text/css" href="/box-static/disk-theme/theme/white/header-theme.css"/>
+<div id="doc">
+<div id="layoutApp"></div>
+<div id="content">
+<div class="docs" id="doc">
+<section class="bd bdy b-rlv clearfix" id="mainContent">
+<section class="main clearfix b-bdr-slv" style="background:#f9f9f9">
+<div class="share-error-right">
+<aside class="repair_share_aside">
+<dl class="property-list notfound-ads-dl">
+<a hideFocus="true"><img src='/res/static/images/share_notfound_ads.jpg'/></a>
+</dl>
+<dl class='repair_login' style="margin: 30px auto;">登录百度网盘，发现更多惊喜</dl>
+<dl style="margin:10px 0;text-align:center;"><a class="g-button g-button-blue" data-button-id="b1"
+                                                          data-button-index="" href="/disk/home"><span
+                class="g-button-right"><span class="text" style="width: auto;">登 录</span></span></a></dl>
+<dl>
+<div class='repair_login no-accounts'>
+<hr/>
+<span>还没帐号？</span>
+</div>
+</dl>
+<dl style="padding: 15px 0;text-align:center;"><a class="g-button" data-button-id="b1" data-button-index=""
+                                                          href="https://passport.baidu.com"><span
+                class="g-button-right"><span class="text" style="width: auto;">立即注册</span></span></a></dl>
+</aside>
+</div>
+<div class="share-error-left">
+<div id="share_nofound_des">
+<div class="error-img">
+<img src="/sns/box-static/disk-share/widget/pageModule/error/img/errorImg_b3a6155.png?t=1527757673590"/>
+</div>
+啊哦！链接错误没找到文件，请打开正确的分享链接!</div>
+<div class="platform-tips" node-id="web-cancelleddoc" style="margin:0;width:750px;overflow:hidden"
+         id="platform-non-found">
+</div>
+<div id='share_nofound_rec' style='padding-left: 15px;'>
+<dl node-type="module" class="module-hot-rec">
+<dt>
+<span class="title">相关文档推荐</span>
+</dt>
+</dl>
+</div>
+<section class="tail" id="tail">
+</section>
+</div>
+</section>
+</section>
+<div class="footer" id="footer" style="height: 40px;">
+<div class="footer-txt">
+<div xmlns="http://www.w3.org/1999/xhtml">&copy;2018Baidu<a class="b-lnk-gy" href="//pan.baidu.com/platform/home" target="_blank">移动开放平台</a>|<a class="b-lnk-gy" href="/disk/duty/" target="_blank">服务协议</a>|<a class="b-lnk-gy" href="//yun.baidu.com/disk/privacy" target="_blank">权利声明</a>|<span class="hp-footer-link"><a class="b-lnk-gy" href="http://yun.baidu.com/disk/version" target="_blank">版本更新</a>|<a class="b-lnk-gy" href="http://yun.baidu.com/disk/help" target="_blank">帮助中心</a>|<a class="b-lnk-gy" href="http://help.baidu.com/newadd?prod_id=29&category=2&ptype=48" target="_blank">问题反馈</a>|<a class="b-lnk-gy" href="http://copyright.baidu.com/index.php/index/complaint" target="_blank">版权投诉</a></div>
+</div>
+</div></div>
+</div>
+</div>
+<script type="text/javascript" src="/sns/box-static/disk-share/js/log.js?t=1527757673590"></script>
+
+
+<img style="position:absolute;top:-10px;left:-10px;width:1px;height:1px;display:none;" src="//pcs.baidu.com/rest/2.0/pcs/file?method=plantcookie&type=ett" />
+<img style="position:absolute;top:-10px;left:-10px;width:1px;height:1px;display:none;" src="//pcs.baidu.com/rest/2.0/pcs/file?method=plantcookie&type=stoken&source=pcs" />
+<img style="position:absolute;top:-10px;left:-10px;width:1px;height:1px;display:none;" src="//pcsdata.baidu.com/rest/2.0/pcs/file?method=plantcookie&type=stoken&source=pcsdata" />
+</body><script type="text/javascript">require.resourceMap({"res":{"disk-share:widget/plugin/comment/commentPanel.css":{"url":"/sns/box-static/disk-share/widget/plugin/comment/commentPanel_ed83fcd.css?t=1527757673590","pkg":"disk-share:p7"},"disk-share:widget/plugin/likes/likes.css":{"url":"/sns/box-static/disk-share/widget/plugin/likes/likes_d41d8cd.css?t=1527757673590","pkg":"disk-share:p7"},"disk-share:widget/plugin/reportBad/reportBad.css":{"url":"/sns/box-static/disk-share/widget/plugin/reportBad/reportBad_832a435.css?t=1527757673590","pkg":"disk-share:p7"},"disk-share:widget/plugin/shareFileSave/ShareFileTree/createFolder/createFolder.css":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/ShareFileTree/createFolder/createFolder_8cc1133.css?t=1527757673590","pkg":"disk-share:p7"},"disk-share:widget/plugin/shareFileSave/ShareFileTree/fileTree/fileTree.css":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/ShareFileTree/fileTree/fileTree_9be32fd.css?t=1527757673590","pkg":"disk-share:p7"},"disk-share:widget/plugin/shareFileSave/ShareFileTree/fileTreeDialog/fileTreeDialog.css":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/ShareFileTree/fileTreeDialog/fileTreeDialog_5b69130.css?t=1527757673590","pkg":"disk-share:p7"},"disk-share:widget/plugin/shareFileSave/icon.css":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/icon_92f9a93.css?t=1527757673590","pkg":"disk-share:p7"},"disk-share:widget/plugin/unLinkShare/icon.css":{"url":"/sns/box-static/disk-share/widget/plugin/unLinkShare/icon_51e580a.css?t=1527757673590","pkg":"disk-share:p7"},"disk-share:widget/plugin/comment/context.js":{"url":"/sns/box-static/disk-share/widget/plugin/comment/context_6e5b906.js?t=1527757673590","pkg":"disk-share:p2"},"disk-share:widget/plugin/comment/commentPanel.js":{"url":"/sns/box-static/disk-share/widget/plugin/comment/commentPanel_936cf59.js?t=1527757673590","pkg":"disk-share:p2","deps":["disk-share:widget/plugin/comment/context.js","disk-share:widget/plugin/comment/commentPanel.css"]},"disk-share:widget/plugin/comment/start.js":{"url":"/sns/box-static/disk-share/widget/plugin/comment/start_02e3e45.js?t=1527757673590","pkg":"disk-share:p2","deps":["disk-share:widget/plugin/comment/context.js","disk-share:widget/plugin/comment/commentPanel.js"]},"disk-share:widget/plugin/likes/context.js":{"url":"/sns/box-static/disk-share/widget/plugin/likes/context_f102bf6.js?t=1527757673590","pkg":"disk-share:p3"},"disk-share:widget/plugin/likes/likes.js":{"url":"/sns/box-static/disk-share/widget/plugin/likes/likes_634dd19.js?t=1527757673590","pkg":"disk-share:p3","deps":["disk-share:widget/plugin/likes/context.js","disk-share:widget/plugin/likes/likes.css"]},"disk-share:widget/plugin/likes/start.js":{"url":"/sns/box-static/disk-share/widget/plugin/likes/start_b693337.js?t=1527757673590","pkg":"disk-share:p3","deps":["disk-share:widget/plugin/likes/context.js","disk-share:widget/plugin/likes/likes.js"]},"disk-share:widget/plugin/reportBad/context.js":{"url":"/sns/box-static/disk-share/widget/plugin/reportBad/context_1105fbb.js?t=1527757673590","pkg":"disk-share:p4"},"disk-share:widget/plugin/reportBad/reportBad.js":{"url":"/sns/box-static/disk-share/widget/plugin/reportBad/reportBad_70efef6.js?t=1527757673590","pkg":"disk-share:p4","deps":["disk-share:widget/plugin/reportBad/context.js","disk-share:widget/plugin/reportBad/reportBad.css"]},"disk-share:widget/plugin/reportBad/start.js":{"url":"/sns/box-static/disk-share/widget/plugin/reportBad/start_62e49cb.js?t=1527757673590","pkg":"disk-share:p4","deps":["disk-share:widget/plugin/reportBad/context.js","disk-share:widget/plugin/reportBad/reportBad.js"]},"disk-share:widget/plugin/shareFileSave/context.js":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/context_300a061.js?t=1527757673590","pkg":"disk-share:p5"},"disk-share:widget/plugin/shareFileSave/ShareFileTree/fileManagerApi/fileManagerApi.js":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/ShareFileTree/fileManagerApi/fileManagerApi_4176785.js?t=1527757673590","pkg":"disk-share:p5","deps":["disk-share:widget/plugin/shareFileSave/context.js"]},"disk-share:widget/plugin/shareFileSave/ShareFileTree/createFolder/createFolder.js":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/ShareFileTree/createFolder/createFolder_e7ebe0a.js?t=1527757673590","pkg":"disk-share:p5","deps":["disk-share:widget/plugin/shareFileSave/context.js","disk-share:widget/plugin/shareFileSave/ShareFileTree/fileManagerApi/fileManagerApi.js","disk-share:widget/plugin/shareFileSave/ShareFileTree/createFolder/createFolder.css"]},"disk-share:widget/plugin/shareFileSave/ShareFileTree/fileTree/fileTree.js":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/ShareFileTree/fileTree/fileTree_19e3d27.js?t=1527757673590","pkg":"disk-share:p5","deps":["disk-share:widget/plugin/shareFileSave/context.js","disk-share:widget/plugin/shareFileSave/ShareFileTree/fileTree/fileTree.css"]},"disk-share:widget/plugin/shareFileSave/ShareFileTree/fileTreeDialog/fileTreeDialog.js":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/ShareFileTree/fileTreeDialog/fileTreeDialog_b9cc407.js?t=1527757673590","pkg":"disk-share:p5","deps":["disk-share:widget/plugin/shareFileSave/context.js","disk-share:widget/plugin/shareFileSave/ShareFileTree/fileTree/fileTree.js","disk-share:widget/plugin/shareFileSave/ShareFileTree/createFolder/createFolder.js","disk-share:widget/plugin/shareFileSave/ShareFileTree/fileTreeDialog/fileTreeDialog.css"]},"disk-share:widget/plugin/shareFileSave/util/transferFilesService.js":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/util/transferFilesService_144140a.js?t=1527757673590","pkg":"disk-share:p5","deps":["disk-share:widget/plugin/shareFileSave/ShareFileTree/fileTreeDialog/fileTreeDialog.js","disk-share:widget/plugin/shareFileSave/context.js"]},"disk-share:widget/plugin/shareFileSave/util/transferFiles.js":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/util/transferFiles_9c2bd67.js?t=1527757673590","pkg":"disk-share:p5","deps":["disk-share:widget/plugin/shareFileSave/util/transferFilesService.js","disk-share:widget/plugin/shareFileSave/context.js"]},"disk-share:widget/plugin/shareFileSave/start.js":{"url":"/sns/box-static/disk-share/widget/plugin/shareFileSave/start_192e022.js?t=1527757673590","pkg":"disk-share:p5","deps":["disk-share:widget/plugin/shareFileSave/util/transferFiles.js","disk-share:widget/plugin/shareFileSave/context.js"]},"disk-share:widget/plugin/unLinkShare/context.js":{"url":"/sns/box-static/disk-share/widget/plugin/unLinkShare/context_0d7e4ba.js?t=1527757673590","pkg":"disk-share:p6"},"disk-share:widget/plugin/unLinkShare/unLinkShare.js":{"url":"/sns/box-static/disk-share/widget/plugin/unLinkShare/unLinkShare_9147098.js?t=1527757673590","pkg":"disk-share:p6","deps":["disk-share:widget/plugin/unLinkShare/context.js"]},"disk-share:widget/plugin/unLinkShare/start.js":{"url":"/sns/box-static/disk-share/widget/plugin/unLinkShare/start_cdf1d14.js?t=1527757673590","pkg":"disk-share:p6","deps":["disk-share:widget/plugin/unLinkShare/context.js","disk-share:widget/plugin/unLinkShare/unLinkShare.js"]},"disk-share:static/js/pcsDownloadUtil.js":{"url":"/sns/box-static/disk-share/js/pcsDownloadUtil.js?t=1527757673590"},"disk-share:static/js/baidu-tongji.js":{"url":"/sns/box-static/disk-share/js/baidu-tongji.js?t=1527757673590"}},"pkg":{"disk-share:p7":{"url":"/sns/box-static/disk-share/pkg/plugin_aef2d24.css?t=1527757673590"},"disk-share:p2":{"url":"/sns/box-static/disk-share/pkg/plugin-comment_379aa06.js?t=1527757673590"},"disk-share:p3":{"url":"/sns/box-static/disk-share/pkg/plugin-likes_43ba4d3.js?t=1527757673590"},"disk-share:p4":{"url":"/sns/box-static/disk-share/pkg/plugin-reportBad_ee5d83b.js?t=1527757673590"},"disk-share:p5":{"url":"/sns/box-static/disk-share/pkg/plugin-shareFileSave_710f48e.js?t=1527757673590"},"disk-share:p6":{"url":"/sns/box-static/disk-share/pkg/plugin-unLinkShare_738aade.js?t=1527757673590"}}});</script><script type="text/javascript" src="/sns/box-static/disk-share/widget/data/yunData_67f7dd4.js?t=1527757673590"></script>
+<script type="text/javascript" src="/sns/box-static/disk-share/pkg/system_1e83001.js?t=1527757673590"></script>
+<script type="text/javascript" src="/sns/box-static/disk-share/pkg/page-ui_35fed90.js?t=1527757673590"></script>
+<script type="text/javascript" src="/sns/box-static/disk-share/js/boot.js?t=1527757673590"></script>
+<script type="text/javascript">!function(){                (function(){
+            var context = require('system-core:context/context.js');
+            var Broker = require('system-core:pluginHub/Broker/Broker.js');
+            var yunData = require('disk-share:widget/data/yunData.js');
+            yunData.setData({"loginstate":0,"username":"","third":0,"flag":11,"file_list":null,"uk":268846526,"task_key":null,"task_time":null,"sampling":false,"bdstoken":null,"is_vip":0,"bt_paths":null,"applystatus":null,"sign1":null,"sign2":null,"sign3":null,"timestamp":1531276454,"timeline_status":null,"face_status":null,"srv_ts":null,"need_tips":null,"is_year_vip":null,"show_vip_ad":null,"vip_end_time":null,"is_evip":null,"is_svip":null,"is_auto_svip":null,"photo":null,"linkusername":null,"shareid":3973155556,"sign":"e3d0e7da1ef51f29c7317428a8fafade35de3c4f","public":null,"ctime":null,"description":null,"self":null,"visitor_avatar":null,"novelid":null,"visitor_uk":null,"share_page_type":"error","is_master_vip":null,"is_master_svip":null,"errortype":5,"curr_activity_code":null,"activity_end_time":null,"expiredType":null,"pansuk":"","sharesuk":"LA6G7V61IkOEGpH8MRHsNg","urlparam":[],"XDUSS":"null"});
+
+            yunData.setData('SERVERTIME', 1531276454655);
+            context.extend({data: {user: yunData.get()},Broker:Broker});
+        })();
+            }();
+!function(){        require("disk-share:widget/system/errorMsg/errorMsg.js");
+    }();
+!function(){require('system-core:context/context.js').instanceForSystem.pluginControl.init();
+require("disk-share:widget/system/header/header.js");
+}();
+!function(){require("disk-share:widget/pageModule/error/error.js");
+}();
+!function(){         require("disk-share:widget/pageModule/hot-rec/hot-rec.js").init({filename: '',size:8});
+         var footer = require("disk-share:widget/pageModule/footer/footer.js");
+    }();
+!function(){        require.async("disk-share:static/js/baidu-tongji.js");
+    }();</script></html>
+

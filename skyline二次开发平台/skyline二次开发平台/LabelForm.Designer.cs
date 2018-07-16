@@ -157,7 +157,7 @@
             // 
             // label6
             // 
-            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.BackColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(277, 21);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(30, 30);

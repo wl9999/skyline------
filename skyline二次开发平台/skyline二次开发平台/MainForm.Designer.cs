@@ -37,15 +37,16 @@
             this.关闭ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.添加标签ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.文字标签ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.矢量标签ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.底图切换ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.天地图ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.百度地图ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.加载shp数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.添加标记ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.添加模型ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.钻孔模型ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.地质体模型ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.地上地下ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.添加建筑物ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.自定义漫游ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.钻孔显示ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.地下场景显示ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,6 +65,7 @@
             this.axTEInformationWindow1 = new AxTerraExplorerX.AxTEInformationWindow();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axTE3DWindow1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axTEInformationWindow1)).BeginInit();
@@ -71,15 +73,12 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
-            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.文件ToolStripMenuItem,
             this.添加标签ToolStripMenuItem,
             this.底图切换ToolStripMenuItem,
+            this.数据ToolStripMenuItem,
             this.添加标记ToolStripMenuItem,
             this.添加模型ToolStripMenuItem,
             this.自定义漫游ToolStripMenuItem,
@@ -87,7 +86,8 @@
             this.场景相关ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(552, 25);
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.menuStrip1.Size = new System.Drawing.Size(946, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -130,8 +130,7 @@
             // 添加标签ToolStripMenuItem
             // 
             this.添加标签ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.文字标签ToolStripMenuItem,
-            this.矢量标签ToolStripMenuItem});
+            this.文字标签ToolStripMenuItem});
             this.添加标签ToolStripMenuItem.Name = "添加标签ToolStripMenuItem";
             this.添加标签ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.添加标签ToolStripMenuItem.Text = "添加标签";
@@ -139,15 +138,9 @@
             // 文字标签ToolStripMenuItem
             // 
             this.文字标签ToolStripMenuItem.Name = "文字标签ToolStripMenuItem";
-            this.文字标签ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.文字标签ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.文字标签ToolStripMenuItem.Text = "文字标签";
             this.文字标签ToolStripMenuItem.Click += new System.EventHandler(this.文字标签ToolStripMenuItem_Click);
-            // 
-            // 矢量标签ToolStripMenuItem
-            // 
-            this.矢量标签ToolStripMenuItem.Name = "矢量标签ToolStripMenuItem";
-            this.矢量标签ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.矢量标签ToolStripMenuItem.Text = "矢量标签";
             // 
             // 底图切换ToolStripMenuItem
             // 
@@ -169,6 +162,22 @@
             this.百度地图ToolStripMenuItem.Name = "百度地图ToolStripMenuItem";
             this.百度地图ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.百度地图ToolStripMenuItem.Text = "百度地图";
+            this.百度地图ToolStripMenuItem.Click += new System.EventHandler(this.百度地图ToolStripMenuItem_Click);
+            // 
+            // 数据ToolStripMenuItem
+            // 
+            this.数据ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.加载shp数据ToolStripMenuItem});
+            this.数据ToolStripMenuItem.Name = "数据ToolStripMenuItem";
+            this.数据ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.数据ToolStripMenuItem.Text = "数据";
+            // 
+            // 加载shp数据ToolStripMenuItem
+            // 
+            this.加载shp数据ToolStripMenuItem.Name = "加载shp数据ToolStripMenuItem";
+            this.加载shp数据ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.加载shp数据ToolStripMenuItem.Text = "加载矢量数据";
+            this.加载shp数据ToolStripMenuItem.Click += new System.EventHandler(this.加载shp数据ToolStripMenuItem_Click);
             // 
             // 添加标记ToolStripMenuItem
             // 
@@ -181,7 +190,7 @@
             this.添加模型ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.钻孔模型ToolStripMenuItem,
             this.地质体模型ToolStripMenuItem,
-            this.地上地下ToolStripMenuItem});
+            this.添加建筑物ToolStripMenuItem});
             this.添加模型ToolStripMenuItem.Name = "添加模型ToolStripMenuItem";
             this.添加模型ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.添加模型ToolStripMenuItem.Text = "添加模型";
@@ -191,18 +200,21 @@
             this.钻孔模型ToolStripMenuItem.Name = "钻孔模型ToolStripMenuItem";
             this.钻孔模型ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.钻孔模型ToolStripMenuItem.Text = "添加钻孔模型";
+            this.钻孔模型ToolStripMenuItem.Click += new System.EventHandler(this.钻孔模型ToolStripMenuItem_Click);
             // 
             // 地质体模型ToolStripMenuItem
             // 
             this.地质体模型ToolStripMenuItem.Name = "地质体模型ToolStripMenuItem";
             this.地质体模型ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.地质体模型ToolStripMenuItem.Text = "添加地质体模型";
+            this.地质体模型ToolStripMenuItem.Click += new System.EventHandler(this.地质体模型ToolStripMenuItem_Click);
             // 
-            // 地上地下ToolStripMenuItem
+            // 添加建筑物ToolStripMenuItem
             // 
-            this.地上地下ToolStripMenuItem.Name = "地上地下ToolStripMenuItem";
-            this.地上地下ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.地上地下ToolStripMenuItem.Text = "添加建筑物";
+            this.添加建筑物ToolStripMenuItem.Name = "添加建筑物ToolStripMenuItem";
+            this.添加建筑物ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.添加建筑物ToolStripMenuItem.Text = "添加建筑物";
+            this.添加建筑物ToolStripMenuItem.Click += new System.EventHandler(this.添加建筑物ToolStripMenuItem_Click);
             // 
             // 自定义漫游ToolStripMenuItem
             // 
@@ -305,8 +317,8 @@
             // 
             // axTE3DWindow1
             // 
-            this.axTE3DWindow1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.axTE3DWindow1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.axTE3DWindow1.Enabled = true;
             this.axTE3DWindow1.Location = new System.Drawing.Point(225, 27);
@@ -317,7 +329,7 @@
             // 
             // axTEInformationWindow1
             // 
-            this.axTEInformationWindow1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.axTEInformationWindow1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.axTEInformationWindow1.Enabled = true;
             this.axTEInformationWindow1.Location = new System.Drawing.Point(0, 27);
@@ -391,7 +403,6 @@
         private System.Windows.Forms.ToolStripMenuItem 百度地图ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 钻孔模型ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 地质体模型ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 地上地下ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 钻孔显示ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 地下场景显示ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 地上地下一体化显示ToolStripMenuItem1;
@@ -408,7 +419,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem 文字标签ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 矢量标签ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 数据ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 添加建筑物ToolStripMenuItem;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.ToolStripMenuItem 加载shp数据ToolStripMenuItem;
     }
 }
 

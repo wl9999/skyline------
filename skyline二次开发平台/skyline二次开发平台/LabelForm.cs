@@ -46,11 +46,7 @@ namespace skyline二次开发平台
                 double dycoord = double.Parse(s2);
                 double altitude = double.Parse(s3);
                 AltitudeTypeCode ealit = AltitudeTypeCode.ATC_TERRAIN_RELATIVE;
-                double dyaw = 0.0;
-                double dpitch = 0.0;
-                double droll = 0.0;
-                double distance = 500;
-                cpos = MainForm.sgworld.Creator.CreatePosition(dxcoord, dycoord, altitude, ealit, dyaw, dpitch, droll, distance);                
+                cpos = MainForm.sgworld.Creator.CreatePosition(dxcoord, dycoord, altitude, ealit,-30, -30, 0.0, 10000);                
                 {
                     SGLabelStyle elabelstyle = SGLabelStyle.LS_DEFAULT;
                     clabelstyle = MainForm.sgworld.Creator.CreateLabelStyle(elabelstyle);
@@ -66,7 +62,7 @@ namespace skyline二次开发平台
                         clabelstyle.Scale = 3;
                         ctextlabel = MainForm.sgworld.Creator.CreateTextLabel(cpos, s5, clabelstyle, 0,s4);
                         IPosition61 cflypos = cpos.Copy();
-                        cflypos.Pitch = -89.0;
+                        cflypos.Pitch = -30.0;
                         MainForm.sgworld.Navigate.FlyTo(cflypos, ActionCode.AC_FLYTO);
                         
                     }
@@ -101,6 +97,10 @@ namespace skyline二次开发平台
             textBox3.Text = "";
             textBox4.Text = "";
             textBox5.Text = "";
+            label6.BackColor = Color.Black;
+            nrgb = 00000000;
+
+
         }
 
       
