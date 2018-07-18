@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -120,6 +121,9 @@ namespace skyline二次开发平台
         {
             IPosition61 beijing = sgworld.Creator.CreatePosition(116.216667, 39.775111, 15000, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, -60, -60, 0, 0);            
             sgworld.Navigate.JumpTo(beijing);
+            //不加载天地图
+            IInfoTree.SetVisibility(0,0);
+       
         }
         
         
@@ -171,7 +175,13 @@ namespace skyline二次开发平台
 
         private void 地下场景显示ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //启用地下模式
             sgworld.Command.Execute(1027, 0);
+            //获取中心坐标
+            IPosition61 center = sgworld.Window.CenterPixelToWorld().Position;
+            //设置视角
+            sgworld.Navigate.SetPosition(center);
+            
         }
 
         private void 另存为ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -181,8 +191,36 @@ namespace skyline二次开发平台
 
         private void 天地图ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            sgworld.Command.Execute(1014, 21);
-       
+            //sgworld.Command.Execute(1014, 21);
+            //string strFindUrl = "http://t0.tianditu.com/img_c/wmts";
+            //string strJSONTxt;
+            //HttpWebRequest req = (HttpWebRequest)WebRequest.Create(strFindUrl);
+            //HttpWebResponse res = (HttpWebResponse)req.GetResponse();
+            //Stream s = res.GetResponseStream();
+            //StreamReader r = new StreamReader(s);
+            //strJSONTxt = r.ReadToEnd();
+            //strJSONTxt = "[" + strJSONTxt.Trim() + "]";
+            //sgworld.Creator.CreatePosition()
+
+            //设置天地图图层显示
+            IInfoTree.SetVisibility(0, 1);
+        }
+
+        private void 钻孔显示ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var itemId = sgworld.ProjectTree.FindItem("新建圆锥");
+            MessageBox.Show("" + itemId);
+            var layer = sgworld.ProjectTree.GetLayer(itemId);
+
+            
+            
+        
+        }
+
+        private void 地上地下一体化显示ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            //sgworld.Command.Execute(1024,0);
+            sgworld.Command.Execute(1071, 0);
         }
 
         private void 加载shp数据ToolStripMenuItem_Click(object sender, EventArgs e)

@@ -155,14 +155,14 @@
             // 天地图ToolStripMenuItem
             // 
             this.天地图ToolStripMenuItem.Name = "天地图ToolStripMenuItem";
-            this.天地图ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.天地图ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.天地图ToolStripMenuItem.Text = "天地图";
             this.天地图ToolStripMenuItem.Click += new System.EventHandler(this.天地图ToolStripMenuItem_Click);
             // 
             // 百度地图ToolStripMenuItem
             // 
             this.百度地图ToolStripMenuItem.Name = "百度地图ToolStripMenuItem";
-            this.百度地图ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.百度地图ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.百度地图ToolStripMenuItem.Text = "百度地图";
             this.百度地图ToolStripMenuItem.Click += new System.EventHandler(this.百度地图ToolStripMenuItem_Click);
             // 
@@ -233,6 +233,7 @@
             this.钻孔显示ToolStripMenuItem1.Name = "钻孔显示ToolStripMenuItem1";
             this.钻孔显示ToolStripMenuItem1.Size = new System.Drawing.Size(184, 22);
             this.钻孔显示ToolStripMenuItem1.Text = "钻孔显示";
+            this.钻孔显示ToolStripMenuItem1.Click += new System.EventHandler(this.钻孔显示ToolStripMenuItem1_Click);
             // 
             // 地下场景显示ToolStripMenuItem1
             // 
@@ -246,6 +247,7 @@
             this.地上地下一体化显示ToolStripMenuItem1.Name = "地上地下一体化显示ToolStripMenuItem1";
             this.地上地下一体化显示ToolStripMenuItem1.Size = new System.Drawing.Size(184, 22);
             this.地上地下一体化显示ToolStripMenuItem1.Text = "地上地下一体化显示";
+            this.地上地下一体化显示ToolStripMenuItem1.Click += new System.EventHandler(this.地上地下一体化显示ToolStripMenuItem1_Click);
             // 
             // 显示控制ToolStripMenuItem
             // 
@@ -262,7 +264,7 @@
             this.显示控制ToolStripMenuItem1,
             this.属性控制ToolStripMenuItem});
             this.底层显示控制ToolStripMenuItem1.Name = "底层显示控制ToolStripMenuItem1";
-            this.底层显示控制ToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.底层显示控制ToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.底层显示控制ToolStripMenuItem1.Text = "地层显示控制";
             // 
             // 显示控制ToolStripMenuItem1
@@ -285,7 +287,7 @@
             this.阴影属性ToolStripMenuItem,
             this.材质属性ToolStripMenuItem});
             this.场景显示控制ToolStripMenuItem1.Name = "场景显示控制ToolStripMenuItem1";
-            this.场景显示控制ToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.场景显示控制ToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.场景显示控制ToolStripMenuItem1.Text = "场景显示控制";
             // 
             // 调整透明度ToolStripMenuItem
