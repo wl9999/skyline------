@@ -16,6 +16,7 @@ namespace skyline二次开发平台
     public partial class MainForm : Form
     {
         public static SGWorld61 sgworld;
+        private ITerrain5 Ita;
         private TerraExplorer CoTE;
         private ITerraExplorer5 ITE;
         private IInformationTree5 IInfoTree;
@@ -42,6 +43,7 @@ namespace skyline二次开发平台
             this.ITE = (ITerraExplorer51)CoTE;
             this.IInfoTree = (IInformationTree5)CoTE;
             this.IPlane = (IPlane5)CoTE;
+            this.Ita = (ITerrain5)CoTE;
             sgworld = new SGWorld61();
             CoTE.OnFrame += new _ITerraExplorerEvents5_OnFrameEventHandler(TE_OnFrame);
         }
@@ -219,8 +221,10 @@ namespace skyline二次开发平台
 
         private void 地上地下一体化显示ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            //sgworld.Command.Execute(1024,0);
-            sgworld.Command.Execute(1071, 0);
+            if (Ita.Opacity == 0) { Ita.Opacity = 1; }
+            else { Ita.Opacity = 0; }
+            
+           
         }
 
         private void 加载shp数据ToolStripMenuItem_Click(object sender, EventArgs e)
